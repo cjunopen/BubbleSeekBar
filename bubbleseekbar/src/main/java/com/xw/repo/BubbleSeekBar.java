@@ -231,6 +231,10 @@ public class BubbleSeekBar extends View {
         calculateRadiusOfBubble();
     }
 
+    public void setMax(float max) {
+        mMax = max;
+    }
+
     private void initConfigByPriority() {
         if (mMin == mMax) {
             mMin = 0.0f;
